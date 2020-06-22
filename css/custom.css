@@ -49,6 +49,11 @@ nav ul a#yellow-hover:hover{
   color: #a8a629;
 }
 
+nav ul a#gray-hover:hover{
+  background-color: rgba(167, 167, 167, 0.397);
+  color: grayß
+}  
+
 #red-select {
   background-color: #fc686823; 
   color: #c75555;
