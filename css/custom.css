@@ -1,81 +1,88 @@
-.row-bottom-margin{
+.icon {
+  height: 25px;
+  width: auto;
+  cursor: pointer;
+  padding-left: 3px;
+}
+
+.row-bottom-margin {
   margin-bottom: 0px;
   display: flex;
 }
 
-.project-title{
+.project-title {
   font-size: 24px;
-  font-weight: 300
+  font-weight: 300;
 }
 
-.project-info{
+.project-info {
   line-height: 1.75;
 }
 
 a.custom-card,
-a.custom-card:hover{
+a.custom-card:hover {
   color: inherit;
 }
 
-.tags{
-  border-radius: 9px; 
-  padding: 7px; 
-  font-weight: bold; 
-  margin-right: 0.3em; 
+.tags {
+  border-radius: 9px;
+  padding: 7px;
+  font-weight: bold;
+  margin-right: 0.3em;
   font-size: 12px;
 }
 
 nav ul a {
-  color: dimgray
+  color: dimgray;
 }
 
-nav ul a#red-hover:hover{
-  background-color: #fc686823; 
+nav ul a#red-hover:hover {
+  background-color: #fc686823;
   color: #c75555;
 }
 
-nav ul a#blue-hover:hover{
-  background-color: #66abfa23; 
+nav ul a#blue-hover:hover {
+  background-color: #66abfa23;
   color: #157fe2;
 }
 
-nav ul a#green-hover:hover{
-  background-color: #73ff5023; 
+nav ul a#green-hover:hover {
+  background-color: #73ff5023;
   color: #5fb34a;
 }
 
-nav ul a#yellow-hover:hover{
-  background-color: #ffe55223; 
+nav ul a#yellow-hover:hover {
+  background-color: #ffe55223;
   color: #a8a629;
 }
 
-nav ul a#gray-hover:hover{
+nav ul a#gray-hover:hover {
   background-color: rgba(167, 167, 167, 0.397);
-  color: grayß
-}  
+  color: grayß;
+}
 
 #red-select {
-  background-color: #fc686823; 
+  background-color: #fc686823;
   color: #c75555;
 }
 
 #blue-select {
-  background-color: #66abfa23; 
+  background-color: #66abfa23;
   color: #157fe2;
 }
 
 #green-select {
-  background-color: #73ff5023; 
+  background-color: #73ff5023;
   color: #5fb34a;
 }
 
-#yellow-select{
-  background-color: #ffe55223; 
+#yellow-select {
+  background-color: #ffe55223;
   color: #a8a629;
 }
 
 #red {
-  color: #a03b3b
+  color: #a03b3b;
 }
 
 #blue {
@@ -86,7 +93,7 @@ nav ul a#gray-hover:hover{
   color: #4fa03b;
 }
 
-#yellow{
+#yellow {
   color: #c2b500;
 }
 
@@ -103,7 +110,7 @@ nav ul a#gray-hover:hover{
     margin: 0.67em 0;
   }
 
-  .project-title{
+  .project-title {
     font-size: 20px;
   }
 }
@@ -122,11 +129,11 @@ nav ul a#gray-hover:hover{
     background-color: rgb(16, 16, 17);
   }
 
-  .icon-color{
+  .icon-color {
     color: white;
   }
 
-  .color-card{
+  .color-card {
     background-color: rgb(28, 28, 31);
   }
 
@@ -136,32 +143,32 @@ nav ul a#gray-hover:hover{
   }
 
   .tags-blue {
-    background-color: #66abfa23; 
+    background-color: #66abfa23;
     color: #157fe2;
   }
 
   .tags-red {
-    background-color: #fc686823; 
+    background-color: #fc686823;
     color: #c75555;
   }
 
   .tags-green {
-   background-color: #73ff5023; 
-   color: #5fb34a;
+    background-color: #73ff5023;
+    color: #5fb34a;
   }
 
   .tags-orange {
-    background-color: #ffbc3e23; 
-   color: #bd7b45;
+    background-color: #ffbc3e23;
+    color: #bd7b45;
   }
 
   .tags-yellow {
-    background-color: #ffe55223; 
-   color: #a8a629;
+    background-color: #ffe55223;
+    color: #a8a629;
   }
 
-  .tags-purple{
-    background-color: #9d52ff23; 
+  .tags-purple {
+    background-color: #9d52ff23;
     color: #7922a1;
   }
 }
@@ -175,45 +182,45 @@ nav ul a#gray-hover:hover{
   }
 
   a.logo {
-    color: black
+    color: black;
   }
 
-  .icon-color{
+  .icon-color {
     color: black;
   }
 
   .tags-blue {
-    background-color: #81bbfd; 
+    background-color: #81bbfd;
     color: #036ccf;
   }
 
   .tags-red {
-    background-color: #ff8686; 
+    background-color: #ff8686;
     color: #a03b3b;
   }
 
   .tags-green {
-   background-color: #a5ff8f; 
-   color: #4fa03b;
+    background-color: #a5ff8f;
+    color: #4fa03b;
   }
 
   .tags-orange {
-    background-color: #ffd588; 
-   color: #a0683b;
+    background-color: #ffd588;
+    color: #a0683b;
   }
 
   .tags-yellow {
-    background-color: #ffef93; 
-   color: #838113;
+    background-color: #ffef93;
+    color: #838113;
   }
 
-  .tags-purple{
-    background-color: #bf8fff; 
+  .tags-purple {
+    background-color: #bf8fff;
     color: #601383;
   }
 }
 
 @font-face {
   font-family: saintDF;
-  src: url('./../fonts/MrsSaintDelafield-Regular.ttf');
+  src: url("./../fonts/MrsSaintDelafield-Regular.ttf");
 }
