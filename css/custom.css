@@ -233,3 +233,23 @@ nav ul a#gray-hover:hover {
   font-family: saintDF;
   src: url("./../fonts/MrsSaintDelafield-Regular.ttf");
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(167, 167, 167, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(114, 114, 114, 0.39);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(114, 114, 114, 0.596);
+}
